@@ -1,10 +1,11 @@
 # DS4B 101-R: R FOR BUSINESS ANALYSIS ----
 # CATEGORICAL DATA MANIPULATION ----
-
+#install.packages("tidyverse")
+#install.packages("tidyquant")
 library(tidyverse)
 library(tidyquant)
 
-bike_orderlines_tbl <- read_rds("00_data/bike_sales/data_wrangled/bike_orderlines.rds")
+bike_orderlines_tbl <- read_rds("D:/hw0527/HW0527/data_wrangled_student/bike_orderlines.rds")
 
 bike_orderlines_tbl
 
